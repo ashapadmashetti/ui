@@ -149,7 +149,7 @@ const PathService: React.FC<PathServiceProps> = ({ reset, rootPath, path, handle
         <FormHelperText>
           <HelperText>
             <HelperTextItem icon={<ExclamationCircleIcon />} variant={validPath}>
-              Required field
+              Please select a valid file path.
             </HelperTextItem>
           </HelperText>
         </FormHelperText>
